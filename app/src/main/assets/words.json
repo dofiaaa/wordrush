@@ -1,0 +1,1586 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-25T17:40:03.351361Z",
+  "words": [
+    {
+      "id": "пицца",
+      "lemma": "пицца",
+      "pos": "сущ",
+      "frequency_ipm": 38.4,
+      "rarity_tier": "common",
+      "est_value": 707,
+      "definition": "Итальянское блюдо — лепёшка с начинкой, запечённая в печи.",
+      "examples": [
+        "Мы заказали пиццу на ужин."
+      ]
+    },
+    {
+      "id": "деньги",
+      "lemma": "деньги",
+      "pos": "сущ",
+      "frequency_ipm": 320.0,
+      "rarity_tier": "common",
+      "est_value": 888,
+      "definition": "Средство платежа и накопления.",
+      "examples": [
+        "Деньги не пахнут."
+      ]
+    },
+    {
+      "id": "любовь",
+      "lemma": "любовь",
+      "pos": "сущ",
+      "frequency_ipm": 145.0,
+      "rarity_tier": "common",
+      "est_value": 820,
+      "definition": "Глубокое чувство привязанности и заботы.",
+      "examples": [
+        "Любовь сильнее всего."
+      ]
+    },
+    {
+      "id": "дом",
+      "lemma": "дом",
+      "pos": "сущ",
+      "frequency_ipm": 610.0,
+      "rarity_tier": "common",
+      "est_value": 942,
+      "definition": "Жилище, здание, где живут люди.",
+      "examples": [
+        "Мой дом — моя крепость."
+      ]
+    },
+    {
+      "id": "время",
+      "lemma": "время",
+      "pos": "сущ",
+      "frequency_ipm": 900.0,
+      "rarity_tier": "common",
+      "est_value": 976,
+      "definition": "Мера длительности событий.",
+      "examples": [
+        "Время не ждёт."
+      ]
+    },
+    {
+      "id": "человек",
+      "lemma": "человек",
+      "pos": "сущ",
+      "frequency_ipm": 1200.0,
+      "rarity_tier": "common",
+      "est_value": 1000,
+      "definition": "Разумное существо.",
+      "examples": [
+        "Человек человеку друг."
+      ]
+    },
+    {
+      "id": "жизнь",
+      "lemma": "жизнь",
+      "pos": "сущ",
+      "frequency_ipm": 400.0,
+      "rarity_tier": "common",
+      "est_value": 907,
+      "definition": "Существование, деятельность.",
+      "examples": [
+        "Жизнь прекрасна."
+      ]
+    },
+    {
+      "id": "работа",
+      "lemma": "работа",
+      "pos": "сущ",
+      "frequency_ipm": 350.0,
+      "rarity_tier": "common",
+      "est_value": 895,
+      "definition": "Труд, занятие.",
+      "examples": [
+        "Работа спорится."
+      ]
+    },
+    {
+      "id": "друг",
+      "lemma": "друг",
+      "pos": "сущ",
+      "frequency_ipm": 300.0,
+      "rarity_tier": "common",
+      "est_value": 882,
+      "definition": "Близкий товарищ.",
+      "examples": [
+        "Старый друг лучше новых двух."
+      ]
+    },
+    {
+      "id": "слово",
+      "lemma": "слово",
+      "pos": "сущ",
+      "frequency_ipm": 250.0,
+      "rarity_tier": "common",
+      "est_value": 867,
+      "definition": "Единица речи.",
+      "examples": [
+        "Слово — серебро, молчание — золото."
+      ]
+    },
+    {
+      "id": "книга",
+      "lemma": "книга",
+      "pos": "сущ",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "Печатное произведение.",
+      "examples": [
+        "Книга — источник знаний."
+      ]
+    },
+    {
+      "id": "солнце",
+      "lemma": "солнце",
+      "pos": "сущ",
+      "frequency_ipm": 100.0,
+      "rarity_tier": "common",
+      "est_value": 789,
+      "definition": "Звезда, дающая свет и тепло.",
+      "examples": [
+        "Солнце светит ярко."
+      ]
+    },
+    {
+      "id": "мама",
+      "lemma": "мама",
+      "pos": "сущ",
+      "frequency_ipm": 250.0,
+      "rarity_tier": "common",
+      "est_value": 867,
+      "definition": "Родительница.",
+      "examples": [
+        "Мама — первое слово."
+      ]
+    },
+    {
+      "id": "машина",
+      "lemma": "машина",
+      "pos": "сущ",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "Автомобиль, транспортное средство.",
+      "examples": [
+        "Машина стоит у дома."
+      ]
+    },
+    {
+      "id": "море",
+      "lemma": "море",
+      "pos": "сущ",
+      "frequency_ipm": 80.0,
+      "rarity_tier": "common",
+      "est_value": 770,
+      "definition": "Большой водоём.",
+      "examples": [
+        "Море волнуется."
+      ]
+    },
+    {
+      "id": "небо",
+      "lemma": "небо",
+      "pos": "сущ",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "Пространство над землёй.",
+      "examples": [
+        "Небо голубое."
+      ]
+    },
+    {
+      "id": "счастье",
+      "lemma": "счастье",
+      "pos": "сущ",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "Состояние полного удовлетворения.",
+      "examples": [
+        "Счастье в мелочах."
+      ]
+    },
+    {
+      "id": "мир",
+      "lemma": "мир",
+      "pos": "сущ",
+      "frequency_ipm": 300.0,
+      "rarity_tier": "common",
+      "est_value": 882,
+      "definition": "Отсутствие войны; вселенная.",
+      "examples": [
+        "Миру — мир."
+      ]
+    },
+    {
+      "id": "наука",
+      "lemma": "наука",
+      "pos": "сущ",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "Система знаний о мире.",
+      "examples": [
+        "Наука двигает прогресс."
+      ]
+    },
+    {
+      "id": "кофе",
+      "lemma": "кофе",
+      "pos": "сущ",
+      "frequency_ipm": 55.0,
+      "rarity_tier": "common",
+      "est_value": 738,
+      "definition": "Напиток из обжаренных зёрен.",
+      "examples": [
+        "Кофе бодрит."
+      ]
+    },
+    {
+      "id": "наукоград",
+      "lemma": "наукоград",
+      "pos": "сущ",
+      "frequency_ipm": 0.02,
+      "rarity_tier": "epic",
+      "est_value": 64,
+      "definition": "Город с высокой концентрацией научных организаций.",
+      "examples": []
+    },
+    {
+      "id": "эфемерный",
+      "lemma": "эфемерный",
+      "pos": "прил",
+      "frequency_ipm": 0.3,
+      "rarity_tier": "rare",
+      "est_value": 294,
+      "definition": "Недолговечный, мимолётный.",
+      "examples": []
+    },
+    {
+      "id": "эпистемология",
+      "lemma": "эпистемология",
+      "pos": "сущ",
+      "frequency_ipm": 0.01,
+      "rarity_tier": "epic",
+      "est_value": 5,
+      "definition": "Раздел философии о природе познания.",
+      "examples": []
+    },
+    {
+      "id": "конъюнктура",
+      "lemma": "конъюнктура",
+      "pos": "сущ",
+      "frequency_ipm": 2.5,
+      "rarity_tier": "uncommon",
+      "est_value": 475,
+      "definition": "Сложившаяся обстановка, стечение обстоятельств.",
+      "examples": []
+    },
+    {
+      "id": "год",
+      "lemma": "год",
+      "pos": "",
+      "frequency_ipm": 700.0,
+      "rarity_tier": "common",
+      "est_value": 954,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "день",
+      "lemma": "день",
+      "pos": "",
+      "frequency_ipm": 650.0,
+      "rarity_tier": "common",
+      "est_value": 948,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "рука",
+      "lemma": "рука",
+      "pos": "",
+      "frequency_ipm": 480.0,
+      "rarity_tier": "common",
+      "est_value": 922,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "глаз",
+      "lemma": "глаз",
+      "pos": "",
+      "frequency_ipm": 400.0,
+      "rarity_tier": "common",
+      "est_value": 907,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "дело",
+      "lemma": "дело",
+      "pos": "",
+      "frequency_ipm": 380.0,
+      "rarity_tier": "common",
+      "est_value": 902,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "место",
+      "lemma": "место",
+      "pos": "",
+      "frequency_ipm": 350.0,
+      "rarity_tier": "common",
+      "est_value": 895,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "вода",
+      "lemma": "вода",
+      "pos": "",
+      "frequency_ipm": 420.0,
+      "rarity_tier": "common",
+      "est_value": 911,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "земля",
+      "lemma": "земля",
+      "pos": "",
+      "frequency_ipm": 280.0,
+      "rarity_tier": "common",
+      "est_value": 876,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "страна",
+      "lemma": "страна",
+      "pos": "",
+      "frequency_ipm": 300.0,
+      "rarity_tier": "common",
+      "est_value": 882,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "город",
+      "lemma": "город",
+      "pos": "",
+      "frequency_ipm": 300.0,
+      "rarity_tier": "common",
+      "est_value": 882,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "папа",
+      "lemma": "папа",
+      "pos": "",
+      "frequency_ipm": 220.0,
+      "rarity_tier": "common",
+      "est_value": 856,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "ребёнок",
+      "lemma": "ребёнок",
+      "pos": "",
+      "frequency_ipm": 260.0,
+      "rarity_tier": "common",
+      "est_value": 870,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "женщина",
+      "lemma": "женщина",
+      "pos": "",
+      "frequency_ipm": 200.0,
+      "rarity_tier": "common",
+      "est_value": 848,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "мужчина",
+      "lemma": "мужчина",
+      "pos": "",
+      "frequency_ipm": 180.0,
+      "rarity_tier": "common",
+      "est_value": 839,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "вопрос",
+      "lemma": "вопрос",
+      "pos": "",
+      "frequency_ipm": 300.0,
+      "rarity_tier": "common",
+      "est_value": 882,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "ответ",
+      "lemma": "ответ",
+      "pos": "",
+      "frequency_ipm": 220.0,
+      "rarity_tier": "common",
+      "est_value": 856,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "сила",
+      "lemma": "сила",
+      "pos": "",
+      "frequency_ipm": 200.0,
+      "rarity_tier": "common",
+      "est_value": 848,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "радость",
+      "lemma": "радость",
+      "pos": "",
+      "frequency_ipm": 160.0,
+      "rarity_tier": "common",
+      "est_value": 829,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "страх",
+      "lemma": "страх",
+      "pos": "",
+      "frequency_ipm": 140.0,
+      "rarity_tier": "common",
+      "est_value": 817,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "сердце",
+      "lemma": "сердце",
+      "pos": "",
+      "frequency_ipm": 220.0,
+      "rarity_tier": "common",
+      "est_value": 856,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "голова",
+      "lemma": "голова",
+      "pos": "",
+      "frequency_ipm": 260.0,
+      "rarity_tier": "common",
+      "est_value": 870,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "лицо",
+      "lemma": "лицо",
+      "pos": "",
+      "frequency_ipm": 240.0,
+      "rarity_tier": "common",
+      "est_value": 863,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "нога",
+      "lemma": "нога",
+      "pos": "",
+      "frequency_ipm": 160.0,
+      "rarity_tier": "common",
+      "est_value": 829,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "дорога",
+      "lemma": "дорога",
+      "pos": "",
+      "frequency_ipm": 200.0,
+      "rarity_tier": "common",
+      "est_value": 848,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "путь",
+      "lemma": "путь",
+      "pos": "",
+      "frequency_ipm": 180.0,
+      "rarity_tier": "common",
+      "est_value": 839,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "лес",
+      "lemma": "лес",
+      "pos": "",
+      "frequency_ipm": 150.0,
+      "rarity_tier": "common",
+      "est_value": 823,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "река",
+      "lemma": "река",
+      "pos": "",
+      "frequency_ipm": 140.0,
+      "rarity_tier": "common",
+      "est_value": 817,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "гора",
+      "lemma": "гора",
+      "pos": "",
+      "frequency_ipm": 120.0,
+      "rarity_tier": "common",
+      "est_value": 804,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "поле",
+      "lemma": "поле",
+      "pos": "",
+      "frequency_ipm": 110.0,
+      "rarity_tier": "common",
+      "est_value": 797,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "деревня",
+      "lemma": "деревня",
+      "pos": "",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "улица",
+      "lemma": "улица",
+      "pos": "",
+      "frequency_ipm": 130.0,
+      "rarity_tier": "common",
+      "est_value": 811,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "школа",
+      "lemma": "школа",
+      "pos": "",
+      "frequency_ipm": 200.0,
+      "rarity_tier": "common",
+      "est_value": 848,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "музыка",
+      "lemma": "музыка",
+      "pos": "",
+      "frequency_ipm": 120.0,
+      "rarity_tier": "common",
+      "est_value": 804,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "кино",
+      "lemma": "кино",
+      "pos": "",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "песня",
+      "lemma": "песня",
+      "pos": "",
+      "frequency_ipm": 140.0,
+      "rarity_tier": "common",
+      "est_value": 817,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "танец",
+      "lemma": "танец",
+      "pos": "",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "игра",
+      "lemma": "игра",
+      "pos": "",
+      "frequency_ipm": 160.0,
+      "rarity_tier": "common",
+      "est_value": 829,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "спорт",
+      "lemma": "спорт",
+      "pos": "",
+      "frequency_ipm": 70.0,
+      "rarity_tier": "common",
+      "est_value": 758,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "рынок",
+      "lemma": "рынок",
+      "pos": "",
+      "frequency_ipm": 80.0,
+      "rarity_tier": "common",
+      "est_value": 770,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "магазин",
+      "lemma": "магазин",
+      "pos": "",
+      "frequency_ipm": 100.0,
+      "rarity_tier": "common",
+      "est_value": 789,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "цена",
+      "lemma": "цена",
+      "pos": "",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "товар",
+      "lemma": "товар",
+      "pos": "",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "еда",
+      "lemma": "еда",
+      "pos": "",
+      "frequency_ipm": 80.0,
+      "rarity_tier": "common",
+      "est_value": 770,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "хлеб",
+      "lemma": "хлеб",
+      "pos": "",
+      "frequency_ipm": 100.0,
+      "rarity_tier": "common",
+      "est_value": 789,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "молоко",
+      "lemma": "молоко",
+      "pos": "",
+      "frequency_ipm": 70.0,
+      "rarity_tier": "common",
+      "est_value": 758,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "чай",
+      "lemma": "чай",
+      "pos": "",
+      "frequency_ipm": 65.0,
+      "rarity_tier": "common",
+      "est_value": 752,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "вино",
+      "lemma": "вино",
+      "pos": "",
+      "frequency_ipm": 40.0,
+      "rarity_tier": "common",
+      "est_value": 711,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "поезд",
+      "lemma": "поезд",
+      "pos": "",
+      "frequency_ipm": 35.0,
+      "rarity_tier": "common",
+      "est_value": 699,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "самолёт",
+      "lemma": "самолёт",
+      "pos": "",
+      "frequency_ipm": 30.0,
+      "rarity_tier": "common",
+      "est_value": 686,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "корабль",
+      "lemma": "корабль",
+      "pos": "",
+      "frequency_ipm": 25.0,
+      "rarity_tier": "common",
+      "est_value": 671,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "телефон",
+      "lemma": "телефон",
+      "pos": "",
+      "frequency_ipm": 110.0,
+      "rarity_tier": "common",
+      "est_value": 797,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "компьютер",
+      "lemma": "компьютер",
+      "pos": "",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "интернет",
+      "lemma": "интернет",
+      "pos": "",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "приложение",
+      "lemma": "приложение",
+      "pos": "",
+      "frequency_ipm": 35.0,
+      "rarity_tier": "common",
+      "est_value": 699,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "сообщение",
+      "lemma": "сообщение",
+      "pos": "",
+      "frequency_ipm": 45.0,
+      "rarity_tier": "common",
+      "est_value": 721,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "ночь",
+      "lemma": "ночь",
+      "pos": "",
+      "frequency_ipm": 180.0,
+      "rarity_tier": "common",
+      "est_value": 839,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "утро",
+      "lemma": "утро",
+      "pos": "",
+      "frequency_ipm": 70.0,
+      "rarity_tier": "common",
+      "est_value": 758,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "вечер",
+      "lemma": "вечер",
+      "pos": "",
+      "frequency_ipm": 80.0,
+      "rarity_tier": "common",
+      "est_value": 770,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "час",
+      "lemma": "час",
+      "pos": "",
+      "frequency_ipm": 150.0,
+      "rarity_tier": "common",
+      "est_value": 823,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "минута",
+      "lemma": "минута",
+      "pos": "",
+      "frequency_ipm": 100.0,
+      "rarity_tier": "common",
+      "est_value": 789,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "неделя",
+      "lemma": "неделя",
+      "pos": "",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "месяц",
+      "lemma": "месяц",
+      "pos": "",
+      "frequency_ipm": 80.0,
+      "rarity_tier": "common",
+      "est_value": 770,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "окно",
+      "lemma": "окно",
+      "pos": "",
+      "frequency_ipm": 70.0,
+      "rarity_tier": "common",
+      "est_value": 758,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "дверь",
+      "lemma": "дверь",
+      "pos": "",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "стол",
+      "lemma": "стол",
+      "pos": "",
+      "frequency_ipm": 50.0,
+      "rarity_tier": "common",
+      "est_value": 730,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "стул",
+      "lemma": "стул",
+      "pos": "",
+      "frequency_ipm": 30.0,
+      "rarity_tier": "common",
+      "est_value": 686,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "комната",
+      "lemma": "комната",
+      "pos": "",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "стена",
+      "lemma": "стена",
+      "pos": "",
+      "frequency_ipm": 45.0,
+      "rarity_tier": "common",
+      "est_value": 721,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "крыша",
+      "lemma": "крыша",
+      "pos": "",
+      "frequency_ipm": 30.0,
+      "rarity_tier": "common",
+      "est_value": 686,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "дерево",
+      "lemma": "дерево",
+      "pos": "",
+      "frequency_ipm": 65.0,
+      "rarity_tier": "common",
+      "est_value": 752,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "цветок",
+      "lemma": "цветок",
+      "pos": "",
+      "frequency_ipm": 35.0,
+      "rarity_tier": "common",
+      "est_value": 699,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "трава",
+      "lemma": "трава",
+      "pos": "",
+      "frequency_ipm": 40.0,
+      "rarity_tier": "common",
+      "est_value": 711,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "птица",
+      "lemma": "птица",
+      "pos": "",
+      "frequency_ipm": 45.0,
+      "rarity_tier": "common",
+      "est_value": 721,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "рыба",
+      "lemma": "рыба",
+      "pos": "",
+      "frequency_ipm": 35.0,
+      "rarity_tier": "common",
+      "est_value": 699,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "собака",
+      "lemma": "собака",
+      "pos": "",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "кошка",
+      "lemma": "кошка",
+      "pos": "",
+      "frequency_ipm": 55.0,
+      "rarity_tier": "common",
+      "est_value": 738,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "лошадь",
+      "lemma": "лошадь",
+      "pos": "",
+      "frequency_ipm": 20.0,
+      "rarity_tier": "common",
+      "est_value": 652,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "корова",
+      "lemma": "корова",
+      "pos": "",
+      "frequency_ipm": 22.0,
+      "rarity_tier": "common",
+      "est_value": 660,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "снег",
+      "lemma": "снег",
+      "pos": "",
+      "frequency_ipm": 55.0,
+      "rarity_tier": "common",
+      "est_value": 738,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "дождь",
+      "lemma": "дождь",
+      "pos": "",
+      "frequency_ipm": 50.0,
+      "rarity_tier": "common",
+      "est_value": 730,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "ветер",
+      "lemma": "ветер",
+      "pos": "",
+      "frequency_ipm": 55.0,
+      "rarity_tier": "common",
+      "est_value": 738,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "звезда",
+      "lemma": "звезда",
+      "pos": "",
+      "frequency_ipm": 40.0,
+      "rarity_tier": "common",
+      "est_value": 711,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "луна",
+      "lemma": "луна",
+      "pos": "",
+      "frequency_ipm": 35.0,
+      "rarity_tier": "common",
+      "est_value": 699,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "сон",
+      "lemma": "сон",
+      "pos": "",
+      "frequency_ipm": 110.0,
+      "rarity_tier": "common",
+      "est_value": 797,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "смех",
+      "lemma": "смех",
+      "pos": "",
+      "frequency_ipm": 30.0,
+      "rarity_tier": "common",
+      "est_value": 686,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "грусть",
+      "lemma": "грусть",
+      "pos": "",
+      "frequency_ipm": 25.0,
+      "rarity_tier": "common",
+      "est_value": 671,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "правда",
+      "lemma": "правда",
+      "pos": "",
+      "frequency_ipm": 80.0,
+      "rarity_tier": "common",
+      "est_value": 770,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "ложь",
+      "lemma": "ложь",
+      "pos": "",
+      "frequency_ipm": 30.0,
+      "rarity_tier": "common",
+      "est_value": 686,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "добро",
+      "lemma": "добро",
+      "pos": "",
+      "frequency_ipm": 40.0,
+      "rarity_tier": "common",
+      "est_value": 711,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "зло",
+      "lemma": "зло",
+      "pos": "",
+      "frequency_ipm": 35.0,
+      "rarity_tier": "common",
+      "est_value": 699,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "цель",
+      "lemma": "цель",
+      "pos": "",
+      "frequency_ipm": 50.0,
+      "rarity_tier": "common",
+      "est_value": 730,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "успех",
+      "lemma": "успех",
+      "pos": "",
+      "frequency_ipm": 40.0,
+      "rarity_tier": "common",
+      "est_value": 711,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "ошибка",
+      "lemma": "ошибка",
+      "pos": "",
+      "frequency_ipm": 45.0,
+      "rarity_tier": "common",
+      "est_value": 721,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "мысль",
+      "lemma": "мысль",
+      "pos": "",
+      "frequency_ipm": 120.0,
+      "rarity_tier": "common",
+      "est_value": 804,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "идея",
+      "lemma": "идея",
+      "pos": "",
+      "frequency_ipm": 90.0,
+      "rarity_tier": "common",
+      "est_value": 780,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "встреча",
+      "lemma": "встреча",
+      "pos": "",
+      "frequency_ipm": 60.0,
+      "rarity_tier": "common",
+      "est_value": 745,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "разговор",
+      "lemma": "разговор",
+      "pos": "",
+      "frequency_ipm": 70.0,
+      "rarity_tier": "common",
+      "est_value": 758,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "письмо",
+      "lemma": "письмо",
+      "pos": "",
+      "frequency_ipm": 50.0,
+      "rarity_tier": "common",
+      "est_value": 730,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "новость",
+      "lemma": "новость",
+      "pos": "",
+      "frequency_ipm": 70.0,
+      "rarity_tier": "common",
+      "est_value": 758,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "картина",
+      "lemma": "картина",
+      "pos": "",
+      "frequency_ipm": 40.0,
+      "rarity_tier": "common",
+      "est_value": 711,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "феномен",
+      "lemma": "феномен",
+      "pos": "",
+      "frequency_ipm": 8.0,
+      "rarity_tier": "uncommon",
+      "est_value": 574,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "гипотеза",
+      "lemma": "гипотеза",
+      "pos": "",
+      "frequency_ipm": 6.0,
+      "rarity_tier": "uncommon",
+      "est_value": 549,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "парадигма",
+      "lemma": "парадигма",
+      "pos": "",
+      "frequency_ipm": 3.0,
+      "rarity_tier": "uncommon",
+      "est_value": 490,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "синергия",
+      "lemma": "синергия",
+      "pos": "",
+      "frequency_ipm": 2.5,
+      "rarity_tier": "uncommon",
+      "est_value": 475,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "энтропия",
+      "lemma": "энтропия",
+      "pos": "",
+      "frequency_ipm": 1.5,
+      "rarity_tier": "uncommon",
+      "est_value": 431,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "флуктуация",
+      "lemma": "флуктуация",
+      "pos": "",
+      "frequency_ipm": 0.9,
+      "rarity_tier": "rare",
+      "est_value": 388,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "реминисценция",
+      "lemma": "реминисценция",
+      "pos": "",
+      "frequency_ipm": 0.6,
+      "rarity_tier": "rare",
+      "est_value": 353,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "априори",
+      "lemma": "априори",
+      "pos": "",
+      "frequency_ipm": 0.8,
+      "rarity_tier": "rare",
+      "est_value": 378,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "дихотомия",
+      "lemma": "дихотомия",
+      "pos": "",
+      "frequency_ipm": 0.2,
+      "rarity_tier": "rare",
+      "est_value": 260,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "оксюморон",
+      "lemma": "оксюморон",
+      "pos": "",
+      "frequency_ipm": 0.35,
+      "rarity_tier": "rare",
+      "est_value": 307,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "синекдоха",
+      "lemma": "синекдоха",
+      "pos": "",
+      "frequency_ipm": 0.2,
+      "rarity_tier": "rare",
+      "est_value": 260,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "метонимия",
+      "lemma": "метонимия",
+      "pos": "",
+      "frequency_ipm": 0.12,
+      "rarity_tier": "rare",
+      "est_value": 216,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "палимпсест",
+      "lemma": "палимпсест",
+      "pos": "",
+      "frequency_ipm": 0.05,
+      "rarity_tier": "epic",
+      "est_value": 142,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "нуминозный",
+      "lemma": "нуминозный",
+      "pos": "",
+      "frequency_ipm": 0.03,
+      "rarity_tier": "epic",
+      "est_value": 98,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "гетерогенный",
+      "lemma": "гетерогенный",
+      "pos": "",
+      "frequency_ipm": 0.4,
+      "rarity_tier": "rare",
+      "est_value": 319,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "гомогенный",
+      "lemma": "гомогенный",
+      "pos": "",
+      "frequency_ipm": 0.3,
+      "rarity_tier": "rare",
+      "est_value": 294,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "инвариант",
+      "lemma": "инвариант",
+      "pos": "",
+      "frequency_ipm": 0.25,
+      "rarity_tier": "rare",
+      "est_value": 279,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "конгруэнтность",
+      "lemma": "конгруэнтность",
+      "pos": "",
+      "frequency_ipm": 0.04,
+      "rarity_tier": "epic",
+      "est_value": 123,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "аберрация",
+      "lemma": "аберрация",
+      "pos": "",
+      "frequency_ipm": 0.12,
+      "rarity_tier": "rare",
+      "est_value": 216,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "лексикография",
+      "lemma": "лексикография",
+      "pos": "",
+      "frequency_ipm": 0.5,
+      "rarity_tier": "rare",
+      "est_value": 338,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "фразеология",
+      "lemma": "фразеология",
+      "pos": "",
+      "frequency_ipm": 0.7,
+      "rarity_tier": "rare",
+      "est_value": 366,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "ономатопея",
+      "lemma": "ономатопея",
+      "pos": "",
+      "frequency_ipm": 0.06,
+      "rarity_tier": "epic",
+      "est_value": 157,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "идиосинкразия",
+      "lemma": "идиосинкразия",
+      "pos": "",
+      "frequency_ipm": 0.09,
+      "rarity_tier": "epic",
+      "est_value": 192,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "трансцендентальный",
+      "lemma": "трансцендентальный",
+      "pos": "",
+      "frequency_ipm": 0.3,
+      "rarity_tier": "rare",
+      "est_value": 294,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "амбивалентность",
+      "lemma": "амбивалентность",
+      "pos": "",
+      "frequency_ipm": 0.4,
+      "rarity_tier": "rare",
+      "est_value": 319,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "катахреза",
+      "lemma": "катахреза",
+      "pos": "",
+      "frequency_ipm": 0.02,
+      "rarity_tier": "epic",
+      "est_value": 64,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "солипсизм",
+      "lemma": "солипсизм",
+      "pos": "",
+      "frequency_ipm": 0.1,
+      "rarity_tier": "rare",
+      "est_value": 201,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "прокрастинация",
+      "lemma": "прокрастинация",
+      "pos": "",
+      "frequency_ipm": 1.8,
+      "rarity_tier": "uncommon",
+      "est_value": 447,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "апостериори",
+      "lemma": "апостериори",
+      "pos": "",
+      "frequency_ipm": 0.15,
+      "rarity_tier": "rare",
+      "est_value": 235,
+      "definition": "",
+      "examples": []
+    },
+    {
+      "id": "квазинаучный",
+      "lemma": "квазинаучный",
+      "pos": "",
+      "frequency_ipm": 0.08,
+      "rarity_tier": "epic",
+      "est_value": 182,
+      "definition": "",
+      "examples": []
+    }
+  ]
+}
