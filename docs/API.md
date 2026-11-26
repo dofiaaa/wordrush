@@ -1,52 +1,42 @@
-# Контракт серверного API (для подключения после прототипа)
+# API бэкенда (Supabase)
 
-Сейчас игра работает на локальном in-memory движке. Для мультиплеера нужен сервер,
-который является **единственным источником истины** о владении и монетах.
+Бэкенд — Supabase (Postgres). Клиент общается через Supabase SDK: PostgREST для
+чтения, RPC для изменений. Все мутации выполняет сервер (SECURITY DEFINER).
 
 ## Аутентификация
 
-- `POST /auth/anonymous` — вход без регистрации (гостевой токен).
-- `POST /auth/refresh` — продление токена.
-- `GET /me` — профиль: `{ id, name, coins, portfolio_value }`.
+- signInAnonymously() — анонимный вход, выдаёт пользователя (auth.uid()).
+- Профиль в таблице profiles создаётся автоматически триггером (старт: 50 монет).
 
-## Коллекция и рулетка
+## Чтение (PostgREST SELECT)
 
-- `POST /spin` — серверный RNG, возвращает выпавшее слово (равновероятно из пула).
-- `GET /collection` — мои слова (id, lease_expires_at, est_value).
-- `POST /words/:id/renew` — продлить аренду (списывает монеты).
-- `GET /words/:id` — карточка слова (лемма, определение, владелец, история цены).
-- `POST /daily` — ежедневный бонус.
+- /rest/v1/words — словарь (публично).
+- /rest/v1/ownership — моя коллекция (RLS: только своё).
+- /rest/v1/listings — лоты (публично).
+- /rest/v1/trades?status=eq.pending — открытые обмены.
+- /rest/v1/bids — ставки.
+- /rest/v1/profiles — профили.
 
-## Рынок
+## RPC (изменения)
 
-- `GET /market` — открытые лоты (тип: sale | auction, цена, продавец).
-- `POST /market` — выставить слово: `{ word_id, type, price, buy_now_price? }`.
-- `POST /market/:listingId/buy` — купить (атомарно переводит монеты и владение).
-- `POST /market/:listingId/bid` — ставка на аукцион.
-- `DELETE /market/:listingId` — снять свой лот.
+| RPC | Аргументы | Описание |
+| --- | --- | --- |
+| spin() | — | случайное невыбитое слово, +10 монет |
+| daily_reward() | — | +50 монет раз в сутки |
+| list_for_sale(word_id, price, type, buy_now_price) | text, bigint, text, bigint | выставить слово |
+| cancel_listing(listing_id) | bigint | снять свой лот |
+| place_bid(listing_id, amount) | bigint, bigint | ставка на аукцион |
+| buy(listing_id) | bigint | купить (атомарно) |
+| create_trade(offered, requested, to_user_id) | text, text, uuid | предложить обмен |
+| accept_trade(trade_id) | bigint | принять обмен |
+| decline_trade(trade_id) | bigint | отклонить |
+| cancel_trade(trade_id) | bigint | отменить (автор) |
+| renew_lease(word_id) | text | продлить аренду, -20 монет |
+| get_leaderboard(limit) | integer | топ по капиталу |
 
-## Обмен
+Все функции возвращают jsonb: {ok: true, ...} или {ok: false, error: "..."}.
 
-- `POST /trades` — создать: `{ offered_word_id, requested_word_id, to_user_id? }`.
-- `POST /trades/:id/accept` — принять (обмен владения 1-на-1).
-- `POST /trades/:id/decline` / `POST /trades/:id/cancel`.
-- `GET /trades` — открытые предложения.
+## Константы экономики (совпадают с core/Econ.kt)
 
-## Топ
-
-- `GET /top?limit=100` — аккаунты по капиталу портфеля.
-
-## Реализация (вариант)
-
-Firebase: Auth + Firestore + Cloud Functions.
-
-- `users/{uid}` — монеты, last_spin_at, last_daily_at.
-- `words/{lemma}` — владелец, lease_expires_at, история сделок.
-- `listings/{id}` — лот; `bids/{listingId}/{bidId}` — ставки.
-- `trades/{id}` — обмен.
-
-Ключевые правила:
-
-- `spin`, `buy`, `accept_trade` — Cloud Functions с Firestore-транзакциями (атомарность).
-- Валидация владения и баланса — на сервере, никогда на клиенте.
-- Топ — запланированная функция, пересчитывающая рейтинг раз в N минут.
+Комиссия 5%, аренда 30 дней / 20 монет, ежедневный бонус 50, награда за спин 10,
+кулдаун спина 10 секунд.
